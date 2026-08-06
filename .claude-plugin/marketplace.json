@@ -1,0 +1,14 @@
+{
+  "name": "oncall-kit-marketplace",
+  "owner": {
+    "name": "Anthropic"
+  },
+  "plugins": [
+    {
+      "name": "oncall-kit",
+      "source": "./",
+      "description": "Turn your incident channel into a Claude-powered on-call: mined triage playbooks, always-current sitreps, self-writing handoffs. Bootstraps itself from your own incident history.",
+      "category": "devops"
+    }
+  ]
+}

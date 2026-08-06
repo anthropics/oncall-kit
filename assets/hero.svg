@@ -1,0 +1,64 @@
+<!-- Copyright 2026 Anthropic PBC -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" role="img"
+     aria-label="The on-call loop: an alert fires, Claude investigates, a human decides, lessons learned feed back into the next investigation.">
+  <title>The on-call loop</title>
+  <style>
+    .h   { font: 600 17px system-ui, sans-serif; fill: #2f363d; }
+    .t   { font: 600 15px system-ui, sans-serif; fill: #2f363d; }
+    .s   { font: 12px system-ui, sans-serif; fill: #656d76; }
+    .cap { font: 13px system-ui, sans-serif; fill: #656d76; }
+    .loop  { fill: none; stroke: #8b949e; stroke-opacity: .45; stroke-width: 2; }
+    .pulse { fill: none; stroke: #4493f8; stroke-width: 4; stroke-linecap: round;
+             stroke-dasharray: 4 96; animation: travel 9s linear infinite; }
+    @keyframes travel { to { stroke-dashoffset: -100; } }
+    @media (prefers-color-scheme: dark) {
+      .h, .t { fill: #c9d1d9; }
+      .s, .cap { fill: #8b949e; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; opacity: 0; }
+    }
+  </style>
+
+  <text class="h" x="400" y="40" text-anchor="middle">The on-call loop</text>
+
+  <!-- the loop: left-to-right across the cards, back along the bottom -->
+  <path class="loop"
+        d="M100 118 H712 Q740 118 740 146 V182 Q740 210 712 210 H88 Q60 210 60 182 V146 Q60 118 88 118 Z"/>
+  <path class="pulse" pathLength="100"
+        d="M100 118 H712 Q740 118 740 146 V182 Q740 210 712 210 H88 Q60 210 60 182 V146 Q60 118 88 118 Z"/>
+
+  <g fill="#8b949e" fill-opacity=".85">
+    <polygon points="221,111 233,118 221,125"/>
+    <polygon points="394,111 406,118 394,125"/>
+    <polygon points="567,111 579,118 567,125"/>
+    <polygon points="406,203 394,210 406,217"/>
+  </g>
+
+  <!-- 1 · alert fires -->
+  <rect x="70" y="80" width="140" height="76" rx="14"
+        fill="#d29922" fill-opacity=".13" stroke="#d29922" stroke-opacity=".55" stroke-width="1.5"/>
+  <text class="t" x="140" y="113" text-anchor="middle">Alert fires</text>
+  <text class="s" x="140" y="136" text-anchor="middle">in the watched channel</text>
+
+  <!-- 2 · claude investigates -->
+  <rect x="243" y="80" width="140" height="76" rx="14"
+        fill="#4493f8" fill-opacity=".13" stroke="#4493f8" stroke-opacity=".55" stroke-width="1.5"/>
+  <text class="t" x="313" y="113" text-anchor="middle">Claude investigates</text>
+  <text class="s" x="313" y="136" text-anchor="middle">grounded diagnosis</text>
+
+  <!-- 3 · human decides -->
+  <rect x="416" y="80" width="140" height="76" rx="14"
+        fill="#a371f7" fill-opacity=".13" stroke="#a371f7" stroke-opacity=".55" stroke-width="1.5"/>
+  <text class="t" x="486" y="113" text-anchor="middle">Human decides</text>
+  <text class="s" x="486" y="136" text-anchor="middle">approves &amp; deploys</text>
+
+  <!-- 4 · lessons learned -->
+  <rect x="589" y="80" width="140" height="76" rx="14"
+        fill="#3fb950" fill-opacity=".13" stroke="#3fb950" stroke-opacity=".55" stroke-width="1.5"/>
+  <text class="t" x="659" y="113" text-anchor="middle">Lessons learned</text>
+  <text class="s" x="659" y="136" text-anchor="middle">appended to lessons.md</text>
+
+  <text class="cap" x="400" y="242" text-anchor="middle">lessons.md feeds back — the next investigation starts smarter</text>
+</svg>

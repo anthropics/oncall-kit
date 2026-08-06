@@ -1,0 +1,487 @@
+{
+ "service": "ci-platform",
+ "window": "2026-05-01..2026-07-06",
+ "note": "FICTIONAL DATA \u2014 test fixture for the on-call kit setup skill.",
+ "incidents": [
+  {
+   "id": "INC-2001",
+   "date": "2026-05-04",
+   "severity": "page",
+   "detected_by": "human",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 34,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2012",
+   "date": "2026-05-05",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 44,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2002",
+   "date": "2026-05-07",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 41,
+   "holdout": false,
+   "alert": "ci-failure-rate"
+  },
+  {
+   "id": "INC-2021",
+   "date": "2026-05-08",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 39,
+   "holdout": false,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2029",
+   "date": "2026-05-09",
+   "severity": "business-hours",
+   "detected_by": "human",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 49,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2013",
+   "date": "2026-05-10",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 29,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2043",
+   "date": "2026-05-11",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 33,
+   "holdout": false,
+   "alert": "artifact-store-errors"
+  },
+  {
+   "id": "INC-2003",
+   "date": "2026-05-12",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 25,
+   "holdout": false,
+   "alert": "ci-flaky-test"
+  },
+  {
+   "id": "INC-2022",
+   "date": "2026-05-14",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 47,
+   "holdout": false,
+   "alert": "runner-image-pull"
+  },
+  {
+   "id": "INC-2014",
+   "date": "2026-05-16",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 52,
+   "holdout": false,
+   "alert": "mq-stall"
+  },
+  {
+   "id": "INC-2030",
+   "date": "2026-05-17",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 36,
+   "holdout": false,
+   "alert": "deploy-error-rate"
+  },
+  {
+   "id": "INC-2004",
+   "date": "2026-05-18",
+   "severity": "business-hours",
+   "detected_by": "human",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 22,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2044",
+   "date": "2026-05-20",
+   "severity": "business-hours",
+   "detected_by": "human",
+   "responder": "Mel Ortiz",
+   "minutes_to_resolve": 90,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2023",
+   "date": "2026-05-21",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 28,
+   "holdout": false,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2015",
+   "date": "2026-05-23",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 33,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2036",
+   "date": "2026-05-24",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 21,
+   "holdout": false,
+   "alert": "deploy-error-rate"
+  },
+  {
+   "id": "INC-2005",
+   "date": "2026-05-26",
+   "severity": "page",
+   "detected_by": "human",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 58,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2024",
+   "date": "2026-05-28",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 16,
+   "holdout": false,
+   "alert": "runner-orphans"
+  },
+  {
+   "id": "INC-2016",
+   "date": "2026-05-30",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 27,
+   "holdout": false,
+   "alert": "mq-stall"
+  },
+  {
+   "id": "INC-2037",
+   "date": "2026-06-01",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Kai Chen",
+   "minutes_to_resolve": 44,
+   "holdout": false,
+   "alert": "deploy-error-rate"
+  },
+  {
+   "id": "INC-2006",
+   "date": "2026-06-02",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Mel Ortiz",
+   "minutes_to_resolve": 30,
+   "holdout": false,
+   "alert": "ci-failure-rate"
+  },
+  {
+   "id": "INC-2045",
+   "date": "2026-06-03",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 18,
+   "holdout": false,
+   "alert": "cert-expiry"
+  },
+  {
+   "id": "INC-2017",
+   "date": "2026-06-04",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Mel Ortiz",
+   "minutes_to_resolve": 38,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2025",
+   "date": "2026-06-05",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Mel Ortiz",
+   "minutes_to_resolve": 55,
+   "holdout": false,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2007",
+   "date": "2026-06-06",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 19,
+   "holdout": false,
+   "alert": "ci-flaky-test"
+  },
+  {
+   "id": "INC-2038",
+   "date": "2026-06-08",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 11,
+   "holdout": false,
+   "alert": "deploy-lag"
+  },
+  {
+   "id": "INC-2018",
+   "date": "2026-06-09",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 12,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2008",
+   "date": "2026-06-11",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 37,
+   "holdout": false,
+   "alert": "ci-failure-rate"
+  },
+  {
+   "id": "INC-2026",
+   "date": "2026-06-12",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 24,
+   "holdout": false,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2039",
+   "date": "2026-06-14",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 31,
+   "holdout": false,
+   "alert": "deploy-lag"
+  },
+  {
+   "id": "INC-2019",
+   "date": "2026-06-15",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 23,
+   "holdout": false,
+   "alert": "mq-stall"
+  },
+  {
+   "id": "INC-2046",
+   "date": "2026-06-16",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 42,
+   "holdout": false,
+   "alert": "exporter-health"
+  },
+  {
+   "id": "INC-2009",
+   "date": "2026-06-17",
+   "severity": "page",
+   "detected_by": "human",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 18,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2027",
+   "date": "2026-06-18",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 63,
+   "holdout": false,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2040",
+   "date": "2026-06-20",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 57,
+   "holdout": false,
+   "alert": "deploy-error-rate"
+  },
+  {
+   "id": "INC-2020",
+   "date": "2026-06-21",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 20,
+   "holdout": false,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2010",
+   "date": "2026-06-22",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 15,
+   "holdout": false,
+   "alert": "ci-flaky-test"
+  },
+  {
+   "id": "INC-2028",
+   "date": "2026-06-24",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 14,
+   "holdout": false,
+   "alert": "runner-orphans"
+  },
+  {
+   "id": "INC-2011",
+   "date": "2026-06-25",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 26,
+   "holdout": false,
+   "alert": "ci-failure-rate"
+  },
+  {
+   "id": "INC-2047",
+   "date": "2026-06-27",
+   "severity": "morning-log",
+   "detected_by": "human",
+   "responder": "Kai Chen",
+   "minutes_to_resolve": 22,
+   "holdout": false,
+   "alert": ""
+  },
+  {
+   "id": "INC-2031",
+   "date": "2026-06-28",
+   "severity": "page",
+   "detected_by": "human",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 21,
+   "holdout": true,
+   "alert": ""
+  },
+  {
+   "id": "INC-2032",
+   "date": "2026-06-29",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 25,
+   "holdout": true,
+   "alert": "mq-stall"
+  },
+  {
+   "id": "INC-2034",
+   "date": "2026-06-30",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 26,
+   "holdout": true,
+   "alert": "runner-capacity"
+  },
+  {
+   "id": "INC-2033",
+   "date": "2026-07-01",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": 31,
+   "holdout": true,
+   "alert": "mq-depth"
+  },
+  {
+   "id": "INC-2035",
+   "date": "2026-07-02",
+   "severity": "morning-log",
+   "detected_by": "alert",
+   "responder": "Mel Ortiz",
+   "minutes_to_resolve": 13,
+   "holdout": true,
+   "alert": "runner-orphans"
+  },
+  {
+   "id": "INC-2041",
+   "date": "2026-07-03",
+   "severity": "page",
+   "detected_by": "alert",
+   "responder": "Priya Shah",
+   "minutes_to_resolve": 29,
+   "holdout": true,
+   "alert": "deploy-error-rate"
+  },
+  {
+   "id": "INC-2048",
+   "date": "2026-07-04",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Dan Kovac",
+   "minutes_to_resolve": null,
+   "holdout": false,
+   "alert": "runner-orphans"
+  },
+  {
+   "id": "INC-2042",
+   "date": "2026-07-05",
+   "severity": "business-hours",
+   "detected_by": "alert",
+   "responder": "Kai Chen",
+   "minutes_to_resolve": 27,
+   "holdout": true,
+   "alert": "deploy-lag"
+  }
+ ]
+}

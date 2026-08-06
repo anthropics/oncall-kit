@@ -1,0 +1,12 @@
+{
+  "name": "oncall-kit",
+  "displayName": "On-Call Kit",
+  "version": "0.1.0",
+  "description": "Turn your incident channel into a Claude-powered on-call: mined triage playbooks, always-current sitreps, self-writing handoffs. Bootstraps itself from your own incident history.",
+  "author": {
+    "name": "Anthropic"
+  },
+  "homepage": "https://github.com/anthropics/oncall-kit",
+  "license": "Apache-2.0",
+  "keywords": ["oncall", "incident-response", "ci", "sre", "slack", "claude-tag"]
+}

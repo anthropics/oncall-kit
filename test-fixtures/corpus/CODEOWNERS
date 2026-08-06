@@ -1,0 +1,6 @@
+# FICTIONAL — test fixture
+/ci/pipelines/       @acme/build-tools
+/ci/skip-filters/    @acme/build-tools
+/merge-queue/        @acme/build-tools
+/runners/            @acme/infra-runtime
+/deploy/             @acme/release-eng
